@@ -89,7 +89,9 @@ s, i, em {
 .fr {
     float: right;
 }
-
+.hide {
+    display: none!important;
+}
 /*site-nav部分start*/
 .site-nav {
     width: 100%;
