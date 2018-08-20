@@ -92,6 +92,9 @@ s, i, em {
 .hide {
     display: none!important;
 }
+.show {
+    display: block;
+}
 /*site-nav部分start*/
 .site-nav {
     width: 100%;
@@ -147,6 +150,12 @@ s, i, em {
     position: absolute;
     left: 9px;
     top: 5px;
+}
+.jn-tel .erweima {
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    left: 20px;
 }
 /*site-nav部分end*/
 /*top-banner部分start*/
