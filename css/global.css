@@ -1,0 +1,304 @@
+/*sub-banner部分start*/
+.sub-banner {
+    position: relative;
+}
+.sub-banner a {
+    /*display: block;*/
+    position: absolute;
+    width: 100%;
+    height: 625px;
+    /*position: relative;*/
+    /*float: left;*/
+    /*z-index: -1;*/
+    background: url("../images/subbanner.jpg") no-repeat center top;
+
+}
+/*sub-banner部分end*/
+
+/*main部分start*/
+.main {
+    /*height: 100px;*/
+    /*background-color: yellow;*/
+}
+.main-slider {
+    float: left;
+}
+
+.main-slider {
+    width: 730px;
+    height: 454px;
+    margin: 12px 0 0 220px;
+    position: relative;
+    /*background-color: yellow;*/
+}
+.main-slider ul {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    margin-left: -66px;
+}
+.main-slider li {
+    float: left;
+    height: 18px;
+    width: 18px;
+    background-color: #3E3E3E;
+    color: #ffffff;
+    line-height: 18px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 4px;
+    cursor: pointer;
+}
+.main-slider .current {
+    background-color: #B61B1F;
+}
+.arrow {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+}
+.arrow-left {
+    float: left;
+}
+.arrow-right {
+    float: right;
+}
+.arrow a{
+    display: inline-block;
+    width: 28px;
+    height: 62px;
+    text-align: center;
+    font: 400 22px/63px "simsum";
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.3);
+}
+.arrow-left a {
+    border-radius: 0 3px 3px 0;
+}
+.arrow-right a {
+    border-radius: 3px 0 0 3px;
+}
+.arrow a:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+.main-news {
+    margin-top: 12px;
+    float: right;
+    width: 250px;
+    height: 454px;
+    position: relative;
+    z-index: 1;
+}
+.main-news-top {
+    float: right;
+    width: 248px;
+    height: 372px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    border: 1px solid #E4E4E4;
+}
+.main-news-top-faster-title {
+    width: 218px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px dotted #E4E4E4;
+    padding: 0 15px;
+}
+.main-news-top-faster-title h3 {
+    float: left;
+    font: 400 16px/32px "microsoft yahei";
+}
+.main-news-top-faster-title a {
+    float: right;
+    font-family: Consolas;
+}
+.main-news-top-faster-content {
+    height: 130px;
+    width: 248px;
+    border-bottom: 1px solid #E4E4E4;
+}
+.main-news-top-faster-content ul {
+    padding-top: 5px;
+    padding-left: 16px;
+}
+.main-news-top-faster-content li {
+    height: 24px;
+    line-height: 24px;
+}
+.main-news-top-faster-content span {
+    font-weight: 700;
+}
+/*.main-news-top-money {*/
+    /*position: relative;*/
+/*}*/
+.main-news-top-money a {
+    display: inline-block;
+    width: 62px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 40px;
+    border: 1px solid #E4E4E4;
+}
+.main-news-top-money ul {
+    width: 255px;
+    height: 215px;
+}
+.main-news-top-money li {
+    float: left;
+    /*margin: 0;*/
+    height: 72px;
+    width: 64px;
+    margin-left: -1px;
+    margin-top: -1px;
+    position: relative;
+}
+.main-news-top-money span {
+    width: 25px;
+    height: 25px;
+    background: url("../images/fly.png") no-repeat;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+}
+.main-news-top-money .free {
+    display: inline-block;
+    width: 12px;
+    height: 15px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    background: url("../images/free.png") no-repeat;
+}
+.main-news-top-money .main-news-top-money-icon3{
+    background-position: 0 -50px;
+}
+.main-news-top-money .main-news-top-money-icon4{
+    background-position: 0 -75px;
+}
+.main-news-top-money .main-news-top-money-icon5{
+     background-position: 0 -100px;
+ }
+.main-news-top-money .main-news-top-money-icon6{
+    background-position: 0 -125px;
+}
+.main-news-top-money .main-news-top-money-icon7{
+    background-position: 0 -150px;
+}
+.main-news-top-money .main-news-top-money-icon8{
+    background-position: 0 -175px;
+}
+.main-news-top-money .main-news-top-money-icon9{
+    background-position: 0 -200px;
+}
+.main-news-top-money .main-news-top-money-icon10{
+    background-position: 0 -225px;
+}
+.main-news-top-money .main-news-top-money-icon11{
+    background-position: 0 -250px;
+}
+.main-news-top-money .main-news-top-money-icon12{
+    background-position: 0 -275px;
+}
+.main-news-top-money .main-news-top-money-icon2{
+    background-position: 0 -25px;
+}
+/*main部分end*/
+
+/*recomend部分start*/
+.recomend {
+    /*height: 151px;*/
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+}
+.recomend-left {
+    float: left;
+    width: 210px;
+    height: 151px;
+}
+.recomend-right {
+    float: right;
+    width: 1000px;
+    overflow: hidden;
+    position: relative;
+}
+.recomend-right ul {
+    width: 1020px;
+}
+.recomend-right li {
+    float: left;
+    margin-right: 2px;
+}
+
+/*recomend部分end*/
+
+/*footer部分start*/
+.footer-top-slogan {
+    width: 100%;
+    height: 94px;
+    margin-top: 25px;
+    margin-bottom: 17px;
+    line-height: 94px;
+    position: relative;
+    background-color: #F5F5F5;
+}
+.footer-top-slogan span {
+    position: absolute;
+    left: 50%;
+}
+.footer-top-slogan1 {
+    margin-left: -604px;
+}
+.footer-top-slogan2 {
+    margin-left: -302px;
+}
+.footer-top-slogan4 {
+    margin-left: 302px;
+}
+.footer-top-shopping {
+    height: 188px;
+    margin-bottom: 11px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.footer-top-shopping dl {
+    width: 200px;
+    float: left;
+}
+.footer-top-shopping dt, .coverage h3 {
+    font: 400 16px/34px "microsoft yahei";
+}
+
+.footer-top-shopping dd {
+    line-height: 20px;
+}
+.footer-top-shopping .last-dl {
+    width: 100px;
+}
+.coverage {
+    float: right;
+    width: 186px;
+    height: 169px;
+    padding-left: 17px;
+    margin-right: 60px;
+    background: url("../images/china.png") no-repeat bottom left;
+}
+.coverage a {
+    float: right;
+}
+.coverage p {
+    padding-top: 8px;
+}
+.footer-bottom {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.footer-bottom a {
+    line-height: 36px;
+    padding: 0 12px 0 14px;
+}
+.footer-bottom-img img {
+    margin: 24px 13px 24px 0 ;
+}
+/*footer部分end*/

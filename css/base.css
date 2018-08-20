@@ -1,0 +1,349 @@
+@charset "UTF-8";
+/*css初始化*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+ul, ol {
+    list-style: none;
+}
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "simsum","宋体";
+}
+select, input {
+    vertical-align: middle;
+}
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+textarea {
+    resize: none;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font: 12px/150% Arial,Verdana, "\5b8b\4f53";
+    color: #666;
+    background: #fff;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.col-red {
+    color: #C81623 !important;
+}
+
+/*公共类*/
+.w {
+    width: 1210px;
+    margin: 0 auto;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float: right;
+}
+
+/*site-nav部分start*/
+.site-nav {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #F1F1F1;
+}
+.site-nav-send, .site-nav-r .fore {
+    position: relative;
+    padding: 0 26px 0 10px;
+}
+.site-nav-send:hover {
+    background-color: #fff;
+}
+.site-nav-send i, .site-nav-r i {
+    width: 15px;
+    height: 7px;
+    position: absolute;
+    right: 9px;
+    top: 14px;
+    overflow: hidden;
+    /*line-height: 15px;*/
+    /*background-color: #cccccc;*/
+}
+.site-nav-send s, .site-nav-r s {
+    font-size: 13px;
+    position: absolute;
+    left: 0;
+    top: -14px;
+}
+.site-nav-r li {
+    float: left;
+    padding: 0 10px;
+}
+.site-nav-r {
+    position: relative;
+}
+.site-nav-r .line {
+    width: 1px;
+    height: 12px;
+    padding: 0;
+    margin-top: 10px;
+    background-color: #DDDDDD;
+}
+.site-nav-r .jn-tel {
+    padding: 0 25px;
+}
+.jn-tel span{
+    display: inline-block;
+    width: 15px;
+    height: 20px;
+    background: url("../images/tel.png") no-repeat;
+    position: absolute;
+    left: 9px;
+    top: 5px;
+}
+/*site-nav部分end*/
+/*top-banner部分start*/
+.top-banner {
+    background-color: #37C2FB;
+    width: 100%;
+    height: 80px;
+    /*position: relative;*/
+}
+.tb {
+    position: relative;
+}
+.close-banner {
+    display: block;
+    width: 19px;
+    height: 19px;
+    background: url("../images/close-banner.png") no-repeat;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.close-banner:hover {
+    background: url("../images/close-banner.png") no-repeat bottom;
+}
+/*top-banner部分end*/
+
+/*search部分start*/
+.search {
+    /*height: 100px;*/
+    /*width: 100%;*/
+}
+.search-logo {
+    height: 60px;
+    width: 362px;
+    padding: 20px 0;
+    float: left;
+    /*background-color: pink;*/
+}
+.search-logo a {
+    display: block;
+    height: 60px;
+    width: 270px;
+    background: url("../images/logo.png") no-repeat;
+    text-indent: -99999em;
+}
+.search-input {
+    height: 61px;
+    width: 642px;
+    float: left;
+    /*background-color: gray;*/
+}
+.search-input input {
+    width: 450px;
+    height: 32px;
+    border: 2px solid #B61D1D;
+    margin-top: 25px;
+    float: left;
+    padding-left: 4px;
+    color: rgb(153,153,153);
+    font: 400 14px/32px "microsoft yahei";
+}
+.search-input button {
+    height: 36px;
+    width: 82px;
+    text-align: center;
+    margin-top: 25px;
+    background-color: #B61D1D;
+    float: left;
+    font: 400 16px/36px "microsoft yahei";
+    color: #ffffff;
+    cursor: pointer;
+}
+.search-car {
+    float: right;
+    width: 96px;
+    height: 34px;
+    line-height: 34px;
+    margin-top: 25px;
+    position: relative;
+    border: 1px solid #DFDFDF;
+    background-color: #F9F9F9;
+    padding-left: 43px;
+    margin-right: 65px;
+}
+.search-car .icon1 {
+    display: block;
+    height: 13px;
+    width: 16px;
+    position: absolute;
+    left: 19px;
+    top: 10px;
+    background: url("../images/tel.png") no-repeat -1px -59px;
+}
+.search-car .icon2 {
+    display: block;
+    width: 16px;
+    height: 14px;
+    color: #fff;
+    line-height: 16px;
+    text-align: center;
+    position: absolute;
+    top: -4px;
+    right: 19px;
+    background-color: #C81623;
+    border-radius: 7px 7px 7px 0;
+}
+.search-car .icon3 {
+    position: absolute;
+    right: 10px;
+    font-family: "宋体";
+    color: #999;
+}
+.search-moreAlinks {
+    width: 538px;
+    height: 28px;
+    float: left;
+    line-height: 28px;
+}
+.search-moreAlinks a {
+    margin-right: 10px;
+}
+/*search部分end*/
+
+/*shortcut-nav部分start*/
+.shortcut-nav {
+    width: 100%;
+    height: 44px;
+    border-bottom: 2px solid #B1191A;
+}
+.shortcut-nav-menu {
+    height: 44px;
+    width: 200px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.shortcut-nav-menu-all a {
+    height: 44px;
+    width: 200px;
+    display: inline-block;
+    font: 400 15px/44px "microsoft yahei";
+    color: #ffffff;
+    background-color: #B1191A;
+    padding-left: 10px;
+}
+.shortcut-nav-items li {
+    float: left;
+}
+.shortcut-nav-items a {
+    display: block;
+    padding: 0 20px;
+    color: #333;
+    font: 400 16px/44px "microsoft yahei";
+}
+.shortcut-nav-items a:hover {
+    color: #C81623;
+}
+.shortcut-nav-img {
+
+    float: right;
+    margin-right: 40px;
+    margin-top: -10px;
+}
+.shortcut-nav-img a{
+    display: block;
+    width: 200px;
+    height: 54px;
+}
+.shortcut-nav-menu-one {
+    margin-top: 2px;
+    height: 465px;
+    width: 209px;
+    border-left: 1px solid #B61D1D;
+    border-bottom: 1px solid #B61D1D;
+}
+.shortcut-nav-menu-one div {
+    position: relative;
+    height: 31px;
+    background-color: #C81623;
+    padding: 0 10px;
+}
+.shortcut-nav-menu-one div:hover {
+    background-color: #fff;
+}
+.shortcut-nav-menu-one div:hover a {
+    color: #C81623;
+}
+.shortcut-nav-menu-one a {
+    display: inline-block;
+    color: #ffffff;
+    font:400 14px/31px "microsoft yahei";
+
+}
+.shortcut-nav-menu-one i {
+    position: absolute;
+    top: 2px;
+    right: 13px;
+    color: #ffffff;
+    font: 400 9px/31px "consolas";
+}
+/*shortcut-nav部分end*/
+
